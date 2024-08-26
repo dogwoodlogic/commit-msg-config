@@ -1,10 +1,11 @@
 {
   "name": "@dlinc/commit-msg-config",
-  "version": "1.1.1",
-  "bin": "lib/index.js",
-  "type": "module",
+  "version": "1.1.2-0",
   "author": "Dogwood Logic, Inc.",
-  "license": "BSD-3-Clause",
+  "bin": "lib/index.js",
+  "bugs": {
+    "url": "https://github.com/dogwoodlogic/commit-msg-config/issues"
+  },
   "dependencies": {
     "yargs": "^17.7.2"
   },
@@ -14,8 +15,15 @@
     "eslint-plugin-jsdoc": "^48.1.0",
     "eslint-plugin-unicorn": "^51.0.1"
   },
+  "homepage": "https://github.com/dogwoodlogic/commit-msg-config",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dogwoodlogic/commit-msg-config"
+  },
   "scripts": {
     "lint": "npx eslint 'packages/**.js'",
     "lint:fix": "npx eslint 'packages/**.js'--fix"
-  }
+  },
+  "type": "module"
 }
