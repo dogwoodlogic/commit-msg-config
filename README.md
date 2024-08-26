@@ -1,5 +1,7 @@
 # commit-msg-config
 
+![NPM Version](https://img.shields.io/npm/v/%40dlinc%2Fcommit-msg-config)
+
 A JS script as a git hook which enforces the following commit message standards
 
 - Messages must be shorter than 80 chars
