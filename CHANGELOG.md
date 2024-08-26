@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 - 2024-08-26
+
+### Changed
+
+- Publish to NPM.
+
 ## 1.1.0 - 2024-08-26
 
 ### Changed
